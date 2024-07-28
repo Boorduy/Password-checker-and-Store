@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+#pass-container {
+    width: 40%;
+    height: 20vh;
+    background: transparent ;
+    position: relative;
+    transform: translateX(100px);
+
+}
+
+
+.span {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+background-color: black;
+border-radius: 100px;
+
+}
+.line {
+  border-top: 10px solid gold;
+  margin-top: 0px;
+  color: red;
+  border-radius: 40px;
+}
+h2 {
+    
+    margin-top: -10px;
+    font-size: 25px;
+    transform: translateY(20px);
+    text-align: justify;
+    color: rgb(21, 255, 36);
+    height: 130px;
+    max-height: 225px;
+    overflow-y: scroll;
+    
+    
+}
+h2::-webkit-scrollbar {
+    display: none;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px ;
+    justify-content: center;
+}
+.input-box {
+    width: 500px;
+    max-width: 100%;
+    position:relative;
+}
+.input-box input {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 20px;
+    color: rgb(38, 255, 0);
+    background: transparent;
+    padding: 0 20px;
+    transform:translateX(-50px);
+}
+.input-box #password{
+    
+    background: transparent;
+    
+}
+button {
+background: transparent;
+    position: absolute;
+    border: none;
+    right: 50px;
+    top: 8px;
+    
+    border-radius: 90%;
+    cursor:pointer;
+    
+}
+#msg {
+    transform: translateX(-50px);
+}
+button img{
+    width: 60px;
+    position: absolute;
+    left: 30px;
+    bottom: -50px;
+}
+#msg {
+    color: white;
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+    font-size: 15px;
+}
+::placeholder {
+    color: rgb(4, 221, 4);
+    font-size: 15px;
+    transform: translateX(30px);
+    
+}
+.blind {
+    
+    width: 50%;
+    position: absolute;
+    margin-top: -51px;
+ transform: translateX(399px);
+ background-image: transparent;
+}
+.eye {
+    height: 40px;
+    position: absolute;
+    margin-top: -50px;
+ transform: translateX(400px);
+ background-image: transparent;
+}
